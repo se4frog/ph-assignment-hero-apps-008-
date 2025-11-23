@@ -1,0 +1,542 @@
+[
+  {
+    "image": "https://logo.clearbit.com/tiktok.com",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 1,
+    "description": "Explore daily fun with short-form videos. Watch, engage, and share content globally.",
+    "size": 185,
+    "reviews": 4500000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 3200000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/whatsapp.com",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 2,
+    "description": "Simple, reliable, and private messaging and calling for free, available worldwide.",
+    "size": 45,
+    "reviews": 182000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 125000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/instagram.com",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 3,
+    "description": "Create and share photos, stories, and reels with the friends and followers you care about.",
+    "size": 160,
+    "reviews": 150000000,
+    "ratingAvg": 4.2,
+    "downloads": 4500000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 34000000 },
+      { "name": "5 star", "count": 90000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/spotify.com",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 4,
+    "description": "Listen to songs, play podcasts, and create playlists with your favorite music.",
+    "size": 95,
+    "reviews": 32000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 22000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/snapchat.com",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "id": 5,
+    "description": "Share the moment with friends and family using fast and fun photo messages.",
+    "size": 125,
+    "reviews": 35000000,
+    "ratingAvg": 4.1,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 17000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/youtube.com",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Watch your favorite videos, channels, and playlists from around the world.",
+    "size": 140,
+    "reviews": 145000000,
+    "ratingAvg": 4.1,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 90000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/netflix.com",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 7,
+    "description": "The leading subscription service for watching TV episodes and movies on your phone.",
+    "size": 80,
+    "reviews": 18000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/amazon.com",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 8,
+    "description": "Browse, search, view product details, read reviews, and purchase millions of products.",
+    "size": 78,
+    "reviews": 8500000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/roblox.com",
+    "title": "Roblox",
+    "companyName": "Roblox Corporation",
+    "id": 9,
+    "description": "The ultimate virtual universe that lets you create, share experiences, and be anything you can imagine.",
+    "size": 165,
+    "reviews": 38000000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 25000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/candycrushsaga.com",
+    "title": "Candy Crush Saga",
+    "companyName": "King",
+    "id": 10,
+    "description": "Switch and match candies in this tasty puzzle adventure to progress to the next level.",
+    "size": 210,
+    "reviews": 40000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 30000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/telegram.org",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 11,
+    "description": "Pure instant messaging — simple, fast, secure, and synced across all your devices.",
+    "size": 68,
+    "reviews": 14000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 8000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/uber.com",
+    "title": "Uber - Request a ride",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 12,
+    "description": "The app that gets you where you need to go. Door-to-door safety standards and reliable rides.",
+    "size": 110,
+    "reviews": 12000000,
+    "ratingAvg": 4.7,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/discord.com",
+    "title": "Discord: Talk, Chat & Hang Out",
+    "companyName": "Discord Inc.",
+    "id": 13,
+    "description": "Create a home for your communities and friends, where you can stay close and have fun over text and voice.",
+    "size": 130,
+    "reviews": 6500000,
+    "ratingAvg": 4.2,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 750000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 3500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/airbnb.com",
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "id": 14,
+    "description": "Find vacation rentals, cabins, beach houses, unique homes, and experiences around the world.",
+    "size": 145,
+    "reviews": 2100000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 450000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/duolingo.com",
+    "title": "Duolingo: Language Lessons",
+    "companyName": "Duolingo",
+    "id": 15,
+    "description": "Learn a new language with the world’s most-downloaded education app. Free, fun, and effective.",
+    "size": 65,
+    "reviews": 16000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 13000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/openai.com",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 16,
+    "description": "The official app by OpenAI. Get instant answers, find creative inspiration, and learn something new.",
+    "size": 42,
+    "reviews": 850000,
+    "ratingAvg": 4.8,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 115000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/doordash.com",
+    "title": "DoorDash - Food Delivery",
+    "companyName": "DoorDash",
+    "id": 17,
+    "description": "Delivery & takeout from the best local restaurants. Breakfast, lunch, dinner and more.",
+    "size": 90,
+    "reviews": 5500000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 3600000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/cash.app",
+    "title": "Cash App",
+    "companyName": "Block, Inc.",
+    "id": 18,
+    "description": "The easy way to send, spend, save, and invest your money. It’s the SAFE, FAST, and FREE mobile finance app.",
+    "size": 105,
+    "reviews": 2800000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 2000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/canva.com",
+    "title": "Canva: Design, Photo & Video",
+    "companyName": "Canva",
+    "id": 19,
+    "description": "Your free photo editor and video editor in one graphic design app. Create social media posts, cards, and flyers.",
+    "size": 35,
+    "reviews": 14000000,
+    "ratingAvg": 4.8,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/pinterest.com",
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "id": 20,
+    "description": "Discover recipes, home ideas, style inspiration and other ideas to try.",
+    "size": 82,
+    "reviews": 10500000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 750000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 7000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/pubgmobile.com",
+    "title": "PUBG MOBILE",
+    "companyName": "Level Infinite",
+    "id": 21,
+    "description": "The original Battle Royale on mobile. Extreme battles in 10-minute matches.",
+    "size": 850,
+    "reviews": 45000000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 25000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/reddit.com",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 22,
+    "description": "Dive into your interests. Join communities, discuss topics, and share content on the front page of the internet.",
+    "size": 60,
+    "reviews": 3500000,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/paypal.com",
+    "title": "PayPal - Send, Shop, Manage",
+    "companyName": "PayPal Mobile",
+    "id": 23,
+    "description": "Send money, pay bills, and manage your account with the secure and easy-to-use digital wallet.",
+    "size": 85,
+    "reviews": 4200000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/shein.com",
+    "title": "SHEIN-Shopping Online",
+    "companyName": "Roadget Business PTE. LTD.",
+    "id": 24,
+    "description": "Discover the latest fashion trends and shop for women's, men's, and kids' clothing.",
+    "size": 115,
+    "reviews": 6800000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 5000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/linkedin.com",
+    "title": "LinkedIn: Jobs & Business News",
+    "companyName": "LinkedIn",
+    "id": 25,
+    "description": "Build your professional network, find jobs, and read the latest industry news.",
+    "size": 180,
+    "reviews": 3200000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1200000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/shazam.com",
+    "title": "Shazam: Music Discovery",
+    "companyName": "Apple Inc.",
+    "id": 26,
+    "description": "Identify any song in seconds. Discover, artists, lyrics, videos and playlists.",
+    "size": 25,
+    "reviews": 7500000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 6500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/weather.com",
+    "title": "The Weather Channel",
+    "companyName": "The Weather Channel",
+    "id": 27,
+    "description": "Live radar updates, severe weather alerts, and local forecast on the go.",
+    "size": 60,
+    "reviews": 3100000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 2250000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/twitter.com",
+    "title": "X",
+    "companyName": "X Corp.",
+    "id": 28,
+    "description": "Breaking news, entertainment, sports, politics, and everything in between.",
+    "size": 95,
+    "reviews": 22000000,
+    "ratingAvg": 4.0,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/twitch.tv",
+    "title": "Twitch: Live Game Streaming",
+    "companyName": "Twitch Interactive, Inc.",
+    "id": 29,
+    "description": "Watch livestream gaming, esports, and any IRL broadcast on your Android device.",
+    "size": 112,
+    "reviews": 5400000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 3500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/nike.com",
+    "title": "Nike: Shoes, Apparel & Stories",
+    "companyName": "Nike, Inc.",
+    "id": 30,
+    "description": "Shop the latest sneakers and apparel, and get exclusive access to new releases.",
+    "size": 130,
+    "reviews": 2100000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1630000 }
+    ]
+  }
+]
