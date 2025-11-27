@@ -1,4 +1,4 @@
-# App Store Clone
+# App Store Clone -- Hero.IO 
 
 A responsive **App Store clone** built with React, featuring live search, app installation via **localStorage**, and dynamic charts.
 
