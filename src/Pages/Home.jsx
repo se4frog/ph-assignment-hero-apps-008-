@@ -1,21 +1,21 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-
-
-
 import React from 'react';
 import { Link } from 'react-router';
 import Hero from '../Components/Hero';
 import Banner from '../Components/Banner';
 import useAppsFunc from '../Hooks/useAppsFunc';
 import AppCard from '../Components/AppCard';
+import Spinner from '../Components/Spinner';
 
 
 
 const Home = () => {
 
-    const { apps } = useAppsFunc()
-    const trendingApps = apps.slice(0, 8)
+    const { apps, loading } = useAppsFunc()
+
+    if (loading) return <Spinner></Spinner>;
+
+    const trendingApps = apps.slice(0, 8);
 
 
 

@@ -3,18 +3,23 @@ import useAppsFunc from '../Hooks/useAppsFunc';
 import AppCard from '../Components/AppCard';
 import searchIcon from '../assets/search.png'
 import AppError from './AppError';
+import Spinner from '../Components/Spinner';
 
 const Apps = () => {
 
 
-    const { apps } = useAppsFunc()
     const [search, setSearch] = useState('')
+    
+    const { apps, loading } = useAppsFunc()
+    if (loading) return <Spinner></Spinner>;
+
+    
 
     const trim = search.trim().toLocaleLowerCase()
 
     const searchedApps = trim ? apps.filter(app => app.title.toLocaleLowerCase().includes(trim)) : apps;
 
-    
+
 
 
 

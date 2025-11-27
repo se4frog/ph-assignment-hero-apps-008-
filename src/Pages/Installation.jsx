@@ -6,6 +6,9 @@ import { toast, ToastContainer } from 'react-toastify';
 const Installation = () => {
 
     const [installedApps, setInstalledApps] = useState(() => loadLocalApps())
+
+    
+
     const [sortOrder, setSortOrder] = useState('none')
 
     const sortedApps = (() => {
@@ -22,7 +25,7 @@ const Installation = () => {
 
         removeLocalApps(id)
         toast('👾 Uninstalled App!')
-        
+
         setInstalledApps(prev => prev.filter(p => p.id !== id))
     }
 

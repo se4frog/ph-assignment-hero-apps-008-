@@ -9,7 +9,7 @@ const useAppsFunc = () => {
 
     useEffect(() => {
      
-        axios('/public/heroAppsData.json').then(data=>setApps(data.data))
+        axios('/heroAppsData.json').then(data=>setApps(data.data))
         .catch(err=>setError(err))
         .finally(()=>setLoading(false))
     }, [])

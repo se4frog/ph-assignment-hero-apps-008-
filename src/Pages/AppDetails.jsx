@@ -7,6 +7,7 @@ import reviewsIcon from '../assets/icon-review.png'
 import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { ToastContainer, toast } from 'react-toastify';
 import { loadLocalApps, updateLocalApps } from '../utils/localStorage';
+import Spinner from '../Components/Spinner';
 
 
 
@@ -24,7 +25,7 @@ const AppDetails = () => {
     const [btnState, setBtnState] = useState(isInstalled)
 
     
-    if (loading) return <p>Loading...</p>
+    if (loading) return <Spinner></Spinner>
     
     const { image, title, reviews, downloads, description, ratings, ratingAvg, companyName, size } = app;
     

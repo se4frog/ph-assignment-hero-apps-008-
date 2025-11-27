@@ -5,11 +5,12 @@ import router from './Routes/Routes.jsx'
 import { RouterProvider } from 'react-router'
 
 import 'react-toastify/dist/ReactToastify.css';
+import Spinner from './Components/Spinner.jsx'
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <RouterProvider router={router} ></RouterProvider>
   </StrictMode>,
 )
