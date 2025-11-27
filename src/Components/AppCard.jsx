@@ -27,19 +27,16 @@ const AppCard = ({ app }) => {
                     <div className="card-body">
                         <h2 className="card-title">
                             {app.title}
-                            {/* <div className="badge badge-secondary">NEW</div> */}
                         </h2>
-                        {/* <p>{app.description}</p> */}
+
                         <div className="card-actions justify-between flex">
-                            <div className="badge badge-outline text-green-600
-                      ">
+                            <div className="badge badge-outline text-green-600">
                                 <div>
                                     <img className='w-5' src={downloads} alt="" />
                                 </div>
                                 <div>{formatNumber(app.downloads)}</div>
                             </div>
-                            <div className="badge badge-outline text-yellow-600
-                      ">
+                            <div className="badge badge-outline text-yellow-600">
                                 <div>
                                     <img className='w-5' src={ratings} alt="" />
                                 </div>

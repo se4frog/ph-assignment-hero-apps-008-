@@ -1,30 +1,54 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router';
 import useAppsFunc from '../Hooks/useAppsFunc';
 import downloadIcon from '../assets/icon-downloads.png';
 import ratingsIcon from '../assets/icon-ratings.png'
 import reviewsIcon from '../assets/icon-review.png'
 import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { ToastContainer, toast } from 'react-toastify';
+import { loadLocalApps, updateLocalApps } from '../utils/localStorage';
+
+
 
 
 const AppDetails = () => {
 
     const { id } = useParams();
-    const { apps, loading, error } = useAppsFunc();
+
+    const { apps, loading } = useAppsFunc();
     const app = apps.find(a => String(a.id) === id)
 
-    if (loading) return <p>Loading...</p>
+    const localApps = loadLocalApps()
+    const isInstalled = localApps.some(app=> String(app.id) === id)
 
+    const [btnState, setBtnState] = useState(isInstalled)
+
+    
+    if (loading) return <p>Loading...</p>
+    
     const { image, title, reviews, downloads, description, ratings, ratingAvg, companyName, size } = app;
+    
+    
+
+    const handleBtn = () => {
+        updateLocalApps(app);
+        toast("App Installed!");   
+        setBtnState(true)
+    }
+
+
+    
+
 
     const formatter = new Intl.NumberFormat('en-US', {
         notation: "compact",
         compactDisplay: "short"
     });
-
+    
     const formatNumber = num => formatter.format(num);
+    
+    const rRatings = [...ratings].reverse();
 
-    console.log(ratings)
 
 
 
@@ -62,7 +86,9 @@ const AppDetails = () => {
                             </div>
 
                             <div className='mt-5'>
-                                <button className="btn btn-success">Install Now ({size} MB)</button>
+                                <button disabled={btnState} 
+                                onClick={() => handleBtn()} 
+                                className='btn btn-success'>{btnState ? 'Installed' : `Install Now (${size} MB)`}</button>
                             </div>
                         </div>
                     </div>
@@ -74,7 +100,7 @@ const AppDetails = () => {
                     <ResponsiveContainer width="100%" height="100%">
                         <BarChart
                             layout='vertical'
-                            data={ratings}
+                            data={rRatings}
                             margin={{
                                 top: 5,
                                 left: 10,
@@ -102,8 +128,9 @@ const AppDetails = () => {
             <div className='max-w-6xl mx-auto pl-5'>
                 <h2 className='font-bold text-2xl mb-5'>Description</h2>
                 <p className='px-5 text-[#627382]'>{description}</p>
-
             </div>
+
+            <ToastContainer />
         </div>
     );
 };

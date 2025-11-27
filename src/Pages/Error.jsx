@@ -10,7 +10,7 @@ const Error = () => {
 
     return (
         <div>
-            <Navbar></Navbar>
+            
             <div className='max-w-6xl mx-auto my-10'>
                 <div className='flex justify-center'>
                     <img src={errorImage} alt="" />
@@ -23,7 +23,7 @@ const Error = () => {
                     <button onClick={()=>navigate(-1)} className='btn btn-primary pr-5'> &lt;Back</button>
                 </div>
             </div>
-            <Footer></Footer>
+           
         </div>
     );
 };

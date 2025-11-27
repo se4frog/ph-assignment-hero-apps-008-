@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import useAppsFunc from '../Hooks/useAppsFunc';
 import AppCard from '../Components/AppCard';
 import searchIcon from '../assets/search.png'
+import AppError from './AppError';
 
 const Apps = () => {
 
@@ -15,6 +16,8 @@ const Apps = () => {
 
     
 
+
+
     return (
         <div>
 
@@ -26,18 +29,25 @@ const Apps = () => {
                     <div>
                         <label className='input rounded-3xl'>
                             <img src={searchIcon} alt="" />
-                            <input defaultValue={search}  onChange={(e) => setSearch(e.target.value)} type="search" placeholder='Search Your Apps' />
+                            <input defaultValue={search} onChange={(e) => setSearch(e.target.value)} type="search" placeholder='Search Your Apps' />
                         </label>
                     </div>
                 </div>
                 <div className='flex justify-center items-center gap-5'>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
-                        {
-                            searchedApps.map(app => (
-                                <AppCard app={app} key={app.id}></AppCard>
-                            ))
-                        }
-                    </div>
+                    {
+                        (searchedApps.length === 0)
+                            ? <h1 className='text-5xl  font-semibold text-[#001931] text-center mt-5'>
+                                No App Found 💀
+                            </h1>
+
+                            : <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
+                                {
+                                    searchedApps.map(app => (
+                                        <AppCard app={app} key={app.id}></AppCard>
+                                    ))
+                                }
+                            </div>
+                    }
                 </div>
 
             </div>

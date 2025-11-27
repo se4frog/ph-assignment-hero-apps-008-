@@ -4,6 +4,9 @@ import './index.css'
 import router from './Routes/Routes.jsx'
 import { RouterProvider } from 'react-router'
 
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
