@@ -16,7 +16,7 @@ const InstAppCard = ({app, handleRemove}) => {
         <div>
             <div className="bg-base-100 shadow-sm shadow-gray-900 rounded-xl
              md:mx-5 
-             flex 
+             flex justify-between items-center gap-5
              mb-5">
                 <div className=''>
                     <figure className="md:px-5">

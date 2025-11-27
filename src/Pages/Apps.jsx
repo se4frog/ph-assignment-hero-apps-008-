@@ -9,11 +9,20 @@ const Apps = () => {
 
 
     const [search, setSearch] = useState('')
-    
-    const { apps, loading } = useAppsFunc()
-    if (loading) return <Spinner></Spinner>;
+    const [searching, setSearching] = useState(false)
 
-    
+    const { apps, loading } = useAppsFunc()
+
+    const handleSearchChange = (e) => {
+        setSearching(true)
+        setSearch(e.target.value)
+
+        setTimeout(() => {
+            setSearching(false)
+        }, 200)
+    }
+
+
 
     const trim = search.trim().toLocaleLowerCase()
 
@@ -34,25 +43,27 @@ const Apps = () => {
                     <div>
                         <label className='input rounded-3xl'>
                             <img src={searchIcon} alt="" />
-                            <input defaultValue={search} onChange={(e) => setSearch(e.target.value)} type="search" placeholder='Search Your Apps' />
+                            <input defaultValue={search} onChange={handleSearchChange} type="search" placeholder='Search Your Apps' />
                         </label>
                     </div>
                 </div>
                 <div className='flex justify-center items-center gap-5'>
-                    {
-                        (searchedApps.length === 0)
-                            ? <h1 className='text-5xl  font-semibold text-[#001931] text-center mt-5'>
+                    {loading || searching ? (
+                        <Spinner />
+                    ) : (
+                        searchedApps.length === 0 ? (
+                            <h1 className='text-5xl font-semibold text-[#001931] text-center mt-5'>
                                 No App Found 💀
                             </h1>
-
-                            : <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
-                                {
-                                    searchedApps.map(app => (
-                                        <AppCard app={app} key={app.id}></AppCard>
-                                    ))
-                                }
+                        ) : (
+                            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
+                                {searchedApps.map(app => (
+                                    <AppCard app={app} key={app.id} />
+                                ))}
                             </div>
-                    }
+                        )
+                    )}
+
                 </div>
 
             </div>
